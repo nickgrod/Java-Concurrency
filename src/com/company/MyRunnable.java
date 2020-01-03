@@ -4,10 +4,11 @@ import static com.company.ThreadColor.ANSI_RED;
 
 /**
  * Created by nickg on 11/13/2019.
+ * This class runs a new thread by implementing the Runnable interface
  */
 public class MyRunnable implements Runnable {
     @Override
     public void run(){
-        System.out.printf(ANSI_RED + "MyRunnable running now");
+        System.out.println(ANSI_RED + "MyRunnable running now");
     }
 }
